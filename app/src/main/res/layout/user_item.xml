@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="2dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="userId"
+            android:textSize="48sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher_round"
+            android:scaleType="fitStart"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userName"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/userNameName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userNameName"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userEmail"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/addressStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addressStreet"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/addressSuite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addressSuite"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/addressCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addressCity"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/addressZipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addressZipcode"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/geo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="geo"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userPhone"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/userWebSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userWebSite"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="companyName"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/companyCatchPhrase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="companyCatchPhrase"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/companyBs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="companyBs"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
